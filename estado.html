@@ -44,6 +44,7 @@
 <link href="css\bootstrap.min.css" rel="stylesheet">
 
 <link href="css\main.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 <body>
 
@@ -310,6 +311,28 @@
 (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
 'https://ludamstudio.ladesk.com/scripts/track.js',
 function(e){ LiveAgent.createButton('c985epbg', e); });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3937a3"
+    },
+    "button": {
+      "background": "#e62576"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "content": {
+    "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios. Si continua con la navegación, consideraremos que acepta ese uso.",
+    "dismiss": "Aceptar",
+    "link": "Leer más",
+    "href": "cookies.html"
+  }
+});
 </script>
 
 </body>

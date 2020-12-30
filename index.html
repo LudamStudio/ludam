@@ -44,6 +44,7 @@
 <link href="css\bootstrap.min.css" rel="stylesheet">
 
 <link href="css\main.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 <body>
 <div class="modal fade" id="videomodal" tabindex="-1" role="dialog" aria-labelledby="videomodal" aria-hidden="true"> 
@@ -174,7 +175,7 @@
 <div class="carousel-cell">
 <div class="row hosting-header-slider-cell">
 <div class="col-md-6">
-<h3 class="mt-3 main-header-text-title">1
+<h3 class="mt-3 main-header-text-title">
 <i class="circle-sub-title-header-slider">Minecraft Hosting</i>
 Planes perfectos para<br>Iniciar tu servidor
 <small>Pide uno ya!</small>
@@ -438,6 +439,27 @@ Nuestro objetivo es <b>impulsar</b> todos tus <b>proyectos</b> con un equipo de 
 (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
 'https://ludamstudio.ladesk.com/scripts/track.js',
 function(e){ LiveAgent.createButton('c985epbg', e); });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3937a3"
+    },
+    "button": {
+      "background": "#e62576"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "content": {
+    "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios. Si continua con la navegación, consideraremos que acepta ese uso.",
+    "dismiss": "Aceptar",
+    "link": "Leer más",
+    "href": "cookies.html"
+  }
+});
 </script>
 
 </body>
